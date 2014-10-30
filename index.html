@@ -1,0 +1,60 @@
+<!doctype html>
+<title>Text Them</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<link rel=stylesheet type=text/css href="/static/style.css">
+<body>
+	<div>
+		<div class="banner">
+			<a href="/"><img src="static/logo.png" alt="logo" align="middle" /></a>
+		</div>
+		<nav class="navbar navbar-default" role="navigation">
+			<div class="container-fluid navbar-collapse collapse orange">
+				<ul class="nav navbar-nav">
+					
+					<li class="active"><a href="/sendtext">Send Text</a></li>
+					
+					<li class=""><a href="/RandomGenerator">Random Generator</a></li>
+					
+					<li class=""><a href="/login">Login</a></li>
+					
+					<li class=""><a href="/register">Register</a></li>
+					
+					<li class=""><a href="/logout">Logout</a></li>
+					
+					<li class=""><a href="/about">About Us</a></li>
+					
+				</ul>
+			</div>
+		</nav>
+		
+<div class="container">
+	<div class="row">
+		<div class="col-md-3">
+		</div>
+		<div class="col-md-6">
+			<h2> Send a Text </h2>
+			<form action="/sendtext" method=post class="form" role="form">
+				<div class="form-group">
+					<label for="InputNumber">Enter number for text:</label>
+					<input class="form-control" type=text id="InputNumber">
+					<div class="form-group">
+						<label for="InputMessage">Enter message for text:</label>
+						<input class="form-control" type=text id=InputMessage>
+					</div>
+					<button type=submit value=Send class="btn btn-default">Submit</button>
+					
+			</form>
+					</div>
+				</div>
+		</div>
+		<div class="col-md-3">
+		</div>
+	</div>
+</div>
+
+	</div>
+</body>
+
+
