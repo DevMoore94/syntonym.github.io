@@ -1,0 +1,23 @@
+body {
+	background-color: #FDF3E7;
+}
+
+.banner {
+	text-align:center;
+	margin-top: 20px;
+}
+
+.orange {
+	background-color:#f68c31;
+}
+
+.orange li a {
+	color:#fff !important;
+}
+.orange li a:hover {
+	color
+}
+
+.orange .active a{
+	background-color:#F9BC59 !important;
+}
